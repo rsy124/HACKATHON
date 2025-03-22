@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>VeriAI - Fact Checker</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>VeriAI - Fact Checker</h1>
+    <p>👋 Welcome! Enter data below to verify its accuracy.</p>
+
+    <!-- Text Input for Fact Checking -->
+    <textarea id="inputText" placeholder="Type your data here..."></textarea>
+    
+    <!-- File Upload for Text Files -->
+    <input type="file" id="fileInput" accept=".txt" />
+    <button onclick="uploadFile()">Upload Text File</button>
+
+    <!-- Image Upload for Deepfake Detection -->
+    <input type="file" id="imageInput" accept=".jpg, .jpeg, .png" />
+    <button onclick="uploadImage()">Upload Image</button>
+
+    <!-- Action Buttons -->
+    <div class="button-container">
+      <button onclick="checkData()">Check Data</button>
+    </div>
+    
+    <!-- Loading and Results -->
+    <div id="loading" class="hidden">Processing... Please wait ⏳</div>
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
