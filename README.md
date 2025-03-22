@@ -57,10 +57,13 @@ http://localhost:5500
 
 ---
 
-## 📸 **Screenshots**  
-| Text Fact-Check | Image Upload for Deepfake Detection |
-|------------------|--------------------------------------|
-| ![Text Check](./screenshots/text-check.png) | ![Image Check](./screenshots/image-check.png) |
+## 📸 Screenshots  
+
+**Text Fact-Check**  
+![Text Check](./screenshots/check.png)
+
+**Image Upload for Deepfake Detection**  
+![Image Check](./screenshots/check1.png)
 
 ---
 
